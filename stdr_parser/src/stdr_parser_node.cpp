@@ -34,7 +34,7 @@ namespace stdr_parser
   
   Node::~Node(void)
   {
-	this->unallocateChildren();
+    this->unallocateChildren();
   }
 
   /**

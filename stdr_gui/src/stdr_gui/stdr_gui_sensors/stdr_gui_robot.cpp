@@ -179,7 +179,7 @@ namespace stdr_gui
         radius_ * 2.0 / resolution_,
         radius_ * 2.0 / resolution_);
       
-      painter.drawLine(	
+      painter.drawLine(    
         current_pose_.x / resolution_,
         current_pose_.y / resolution_,
         current_pose_.x / resolution_ + 

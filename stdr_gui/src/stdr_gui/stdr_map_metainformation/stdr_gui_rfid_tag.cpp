@@ -31,7 +31,7 @@ namespace stdr_gui{
   **/
 
   CGuiRfidTag::CGuiRfidTag(QPoint p,std::string name, float resolution):
-	CGuiSource(p,name,resolution),
+    CGuiSource(p,name,resolution),
         message_("")
   {
   

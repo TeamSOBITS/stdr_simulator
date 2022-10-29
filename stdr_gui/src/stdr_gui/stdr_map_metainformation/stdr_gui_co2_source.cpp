@@ -33,7 +33,7 @@ namespace stdr_gui{
     CGuiSource(p,name,resolution),
     ppm_(0.0)
   {
-	
+    
   }
   
   /**

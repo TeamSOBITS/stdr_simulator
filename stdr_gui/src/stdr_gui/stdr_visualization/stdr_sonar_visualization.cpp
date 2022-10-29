@@ -119,8 +119,8 @@ namespace stdr_gui
   **/
   void CSonarVisualisation::paint(void)
   {
-	  
-	float real_dist = range_.range;
+      
+    float real_dist = range_.range;
     if(real_dist > msg_.maxRange)
     {
       real_dist = msg_.maxRange;

@@ -47,7 +47,7 @@ namespace stdr_gui
       std::string name_;  
       //!< The OGM resolution
       float resolution_;
-  	
+      
     //------------------------------------------------------------------------//
     public:
       /**

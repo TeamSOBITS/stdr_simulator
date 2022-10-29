@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
 import rospy
@@ -29,7 +29,7 @@ class InterfaceTest(unittest.TestCase):
 
     @classmethod
     def setUp(cls):
-        print 'Starting...'
+        print ('Starting...')
         cls.messages = defaultdict(list)
 
     @classmethod

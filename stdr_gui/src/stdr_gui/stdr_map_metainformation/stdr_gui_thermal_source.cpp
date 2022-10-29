@@ -30,7 +30,7 @@ namespace stdr_gui{
   @return void
   **/
   CGuiThermalSource::CGuiThermalSource(QPoint p,std::string name, float resolution):
-	  CGuiSource(p,name,resolution),
+      CGuiSource(p,name,resolution),
           degrees_(0.0)
   {
   

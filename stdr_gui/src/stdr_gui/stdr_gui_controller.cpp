@@ -730,7 +730,7 @@ namespace stdr_gui
     {
       return;
     }
-    while(map_lock_)	
+    while(map_lock_)    
     {
       usleep(100);
     }
@@ -1200,7 +1200,7 @@ namespace stdr_gui
           }
         }
       }
-    }	
+    }    
     return stdr_msgs::SonarSensorMsg();
   }
   

@@ -174,7 +174,7 @@ namespace stdr_gui
 
     for(unsigned int i = 0 ; i < scan_.ranges.size() ; i++)
     {
-	  float real_dist = scan_.ranges[i];
+      float real_dist = scan_.ranges[i];
       if(real_dist > msg_.maxRange)
       {
         real_dist = msg_.maxRange;
